@@ -1,0 +1,60 @@
+:root {
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navy-blue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4Fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 1.5;
+  color: var(--navy-blue-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*------------- HEADER ----------*/
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-span {
+  color: var(--iris-color);
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+  color: var(--navy-blue-color);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--navy-blue-color);
+}
+
+/*------------- FOOTER ----------*/
+.footer-box {
+  background-color: var(--navy-blue-color);
+}
